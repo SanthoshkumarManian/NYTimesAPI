@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+h1,h2{
+    padding: 2rem;
+}
+
+.search_box{
+    display: flex;
+    justify-content: center;
+}
+.search_input{
+    height: 25px;
+}
+
+li{
+    list-style: none;
+  
+}
+.items{
+    box-sizing: border-box;
+    padding: 10px 20px 10px 20px;
+    background-color:rgb(74, 229, 250);
+    margin-left: 10px;
+    text-align: center;
+    align-items: center;
+    border-radius: 25px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.list{
+    display: flex;
+    justify-content: center;
+}
+.result{
+    display: flex;
+    justify-content: space-around;
+    margin:10vh;
+}
